@@ -1,0 +1,8 @@
+sudo: required
+language: java
+
+before_install:
+  - ./gradlew assemble
+
+script:
+  - ./gradlew test
